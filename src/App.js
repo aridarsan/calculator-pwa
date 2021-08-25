@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Calculator from "./Components/Calculator"
+import Ngetang from "./Components/Ngetang"
 
 function App() {
   return (
     <div className="calculator-app">
-      <Calculator/>
+      <Ngetang/>
     </div>
   );
 }

@@ -1,42 +1,43 @@
 body{
   background-color: #222222;
-    width: 100vw;
-    height: 100vh;
 }
 h1{
   font-family: 'Rubik', sans-serif;
   text-align: center;
-  font-size: 40px;
+  font-size: 3rem;
   color: grey;
 }
 h3{
   font-family: 'Rubik', sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
   color: grey;
+  opacity: 0.6;
 }
 h4{
   font-family: 'Rubik', sans-serif;
-  font-size: 18px;
+  font-size: 1.1;
   text-align: center;
   color: grey;
 }
 .disp{
     text-align: right;
+    overflow: hidden;
+    font-family: 'Orbitron', sans-serif;
 }
 .container-calc{
   display: flex;
   justify-content: center;
+  margin: 2rem;
 }
 .calculator{
-  width: 420px;
-  height: 100vh;
+  width: 25rem;
+  height: 45rem;
   background: #EEEEEE;
   border-radius: 20px;
 }
 .keyboard{
-  margin-bottom: 50px;
-  top: 0;
+  margin-bottom: 3rem;
 }
 .display input{
   font-family: 'Orbitron', sans-serif;
@@ -75,17 +76,29 @@ button:active{
 }
 .keyboard .operator{
   color: crimson;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 .display-calc{
   margin: 2rem ;
-  margin-top: 50%;
+  margin-top: 5.5rem
+}
+.title{
+  box-shadow: 6px 6px 16px 0 rgba(209, 205, 199, .5),
+  -6px -6px 16px 0 rgba(255, 255, 255, .5);
+  padding: .5rem;
+  margin: 0 2rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+.footer{
+  color: grey;
+  margin-bottom: 1rem;
+}
+.footer a{
+  color: #EEEEEE;
 }
 @media (max-width: 576px){
-  body{
-    width: 100vw;
-    height: 100vh;
-  }
   .calculator-app{
     justify-content: center;
   }
@@ -94,8 +107,8 @@ button:active{
     justify-content: center;
   }
   .display-calc{
-    margin: 2rem ;
-    margin-top: 80%;
+/*    margin: 2rem ;*/
+    margin-top: 5.5rem;
   }
   h1{
     text-align: center;
@@ -117,16 +130,16 @@ button:active{
     word-wrap: break-word;
 }
   .calculator{
-    width: 80vw;
+    width: 100vw;
     height: 80vh;
     background: #EEEEEE;
     border-radius: 20px;
   }
   .keyboard button{
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    margin: 5px;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+    margin: .5rem;
     border-radius: 50%;
     color: grey;
     background: #EEEEEE;
