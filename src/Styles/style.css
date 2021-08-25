@@ -93,7 +93,7 @@ button:active{
 }
 .footer{
   color: grey;
-  margin-bottom: 1rem;
+  margin: 3rem;
 }
 .footer a{
   color: #EEEEEE;
@@ -167,4 +167,8 @@ button:active{
   .calculator-app{
     margin-top:3rem;
   }
+  .footer{
+  color: grey;
+  margin: 3rem;
+}
 }
