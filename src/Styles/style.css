@@ -74,6 +74,9 @@ h4{
 button:active{
   box-shadow: inset -6px -6px 16px 0 rgba(255, 255, 255, .5), inset 6px 6px 16px 0 rgba(209, 205, 199, .5) ;
 }
+button:hover{
+  box-shadow: inset -6px -6px 16px 0 rgba(255, 255, 255, .5), inset 6px 6px 16px 0 rgba(209, 205, 199, .5) ;
+}
 .keyboard .operator{
   color: crimson;
   font-weight: 700;
@@ -171,4 +174,9 @@ button:active{
   color: grey;
   margin: 3rem;
 }
+}
+
+.container-footer{
+  margin: 1rem 0;
+  padding-bottom: 1rem;
 }
