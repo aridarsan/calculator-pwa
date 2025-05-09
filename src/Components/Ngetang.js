@@ -72,10 +72,10 @@ export default function Ngetang(){
           </div>
         </div>
 
+     </div>
         <div className="container-footer">
           <h4 className="footer">Created with ❤ by <a href="https://instagram.com/ari_darsan" target="_blank" rel="noreferrer">@ari_darsan</a></h4>
         </div>
-     </div>
     </div>
   );
 }
